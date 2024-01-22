@@ -106,8 +106,9 @@ int main() {
             posb.x = 785;
             float a = distributionS(gen);
             speedB = sf::Vector2f(0.1f, 0.1f);
-            if (a == 1)
+            if (a == 1){
                 speedB.x *= -1.f;
+            }
             scoreR += 1;
         }
         if (posb.y < 0){
@@ -118,8 +119,9 @@ int main() {
             posb.x = 785;
             float a = distributionS(gen);
             speedB = sf::Vector2f(0.1f, 0.1f);
-            if (a == 1)
+            if (a == 1) {
                 speedB.x *= -1.f;
+            }
             scoreL += 1;
         }
         if (posb.y > 870){
